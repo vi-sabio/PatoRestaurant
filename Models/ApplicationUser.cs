@@ -5,7 +5,6 @@ namespace PatoRestaurant.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        
         [Required]
         [StringLength(60)]
         public string Name { get; set; }
